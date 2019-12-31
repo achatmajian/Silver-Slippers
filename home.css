@@ -2,15 +2,33 @@
     background-image: url("Assets/images/ballerina-4362282_1920.jpg");
 }
 
-.text {
+
+.text-container {
     padding: 25px;
     margin: 25px;
 }
 
-.content-container{
-
+.text-container > div {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    background-color: lightblue;
 }
 
+.logo-container {
+    display: flex;
+    height: 200px;
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 150px;
+
+}
 
 .footer-content{
     padding: 10px 25px 10px 25px;
