@@ -1,6 +1,5 @@
-.body{
-    background-image: url("Assets/images/ballerina-4362282_1920.jpg");
-}
+/* .body{
+} */
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -82,12 +81,34 @@ margin-top: 150px;
 
 /* Form */
 
+/* .contact-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+#contact{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#contact-subheading{
+    text-align: center;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .form-container {
     padding: 50px;
-    margin: 100px;
+    margin: 50px 50px 50px 50px;
     border: 1px solid lightblue;
     border-radius: 5px;
     background-color: lightblue;
+    width: 800px;
+
 }
 
 /* Footer */
