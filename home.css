@@ -6,23 +6,22 @@
 
 .hero-container {
     display: flex;
+    flex-direction: row;
     height: 500px;
-    width: 1200px;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding: 20px;
-    margin: 50px;
+    /* width: 1200px; */
+    padding: 40px;
+    margin: 70px;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
 
 .hero-graphic {
-    height: 600px;
+    height: 700px;
 }
 
 .hero-text {
-    width: 900px;
+    width: 800px;
 }
 
 
