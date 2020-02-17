@@ -2,7 +2,29 @@
     background-image: url("Assets/images/ballerina-4362282_1920.jpg");
 }
 
-/* Logo */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Hero */
 
 .hero-container {
     display: flex;
@@ -24,25 +46,33 @@
     width: 800px;
 }
 
-
 .logo {
     height: 150px;
 
 }
 
-/* Text */
+/* Pricing */
 
-.text-container {
-    padding: 25px;
-    margin: 25px;
+.pricing-wrapper {
+text-align: center;
+margin-top: 150px;
+
 }
 
-.text-container > div {
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0px 50px 50px 50px;
+}
+
+.pricing-container > div {
     border: 1px solid lightblue;
     border-radius: 5px;
     margin: 20px;
     padding: 30px;
     background-color: lightblue;
+    width: 200px;
 }
 
 /* Form */
