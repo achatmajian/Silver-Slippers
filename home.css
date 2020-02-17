@@ -1,5 +1,8 @@
-/* .body{
-} */
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -23,30 +26,53 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+
+/* Navigation */
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0);
+}
+
+.nav-logo{
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
 /* Hero */
+
+.hero-wrapper {
+    
+}
 
 .hero-container {
     display: flex;
-    flex-direction: row;
-    height: 500px;
-    /* width: 1200px; */
-    padding: 40px;
-    margin: 70px;
+    flex-wrap: wrap;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 70px 70px 70px;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+
 }
 
-.hero-graphic {
-    height: 700px;
+#hero-graphic {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    background-size: contain;
+    max-width: 500px;
 }
 
 .hero-text {
+    padding-top: 100px;
     width: 800px;
+    min-width: 800px;
+    height: 600px;
+    min-width: 600px;
 }
 
 .logo {
     height: 150px;
+    min-height: 150px;
 
 }
 
@@ -54,8 +80,7 @@ p {
 
 .pricing-wrapper {
 text-align: center;
-margin-top: 150px;
-
+margin-top: 100px;
 }
 
 .pricing-container {
@@ -66,13 +91,16 @@ margin-top: 150px;
 }
 
 .pricing-container > div {
-    border: 1px solid lightblue;
     border-radius: 5px;
     margin: 20px;
     padding: 30px;
     background-color: lightblue;
-    width: 200px;
 }
+
+.column{
+    min-width: 400px;
+}
+
 
 /* Form */
 
@@ -84,7 +112,7 @@ margin-top: 150px;
 
 #contact{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 #contact-subheading{
@@ -99,7 +127,6 @@ margin-top: 150px;
 .form-container {
     padding: 50px;
     margin: 50px 50px 50px 50px;
-    border: 1px solid lightblue;
     border-radius: 5px;
     background-color: lightblue;
     width: 800px;
@@ -107,6 +134,10 @@ margin-top: 150px;
 }
 
 /* Footer */
+
+.footer{
+    background-color: rgba(255,255,255,0);
+}
 
 .footer-content{
     padding: 10px 25px 10px 25px;

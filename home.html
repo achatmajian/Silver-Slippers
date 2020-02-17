@@ -19,7 +19,7 @@
 
     <title>Silver Slippers</title>
 </head>
-<body>
+<body background="Assets/images/background-gradient.jpg">
 
   <!-- Navigation -->
   <div class="hero-head">
@@ -27,7 +27,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-            <strong>Silver Slippers</strong>
+            <p class="nav-logo">Silver Slippers</p>
             <!-- <img src="Assets/images/logo2.png" height="300px" alt="Logo"> -->
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroC">
@@ -57,18 +57,24 @@
 
   <!-- Hero/Mission Statement-->
 
+<div class="hero-wrapper">
+
   <div class="hero-container">
-    
-    <div class="hero-graphic">
-    <img src="Assets/Couple_Dancing_V1.png">
-    </div>
     
     <div class="hero-text">
     <img src="/Assets/images/logo2.svg" class="logo">
-    <p>Silver Slippers aims to connect older adults with dance instructors for private, in-home dance lessons. Participating in dance has been linked with numerous health benefits - most notably improvements in balance and reduction in fall risk. Sessions are customizable in terms of preferred dance style, frequency, and duration, though at least one 45-min session per week is highly recommended for optimal outcomes. <br><br> Silver Slippers LLC started as a research project.  An occupational therapist / dance enthusiast collaborated with a classically-trained dancer to develop a multi-genre dance program suited for seniors consisting of two 45-min weekly sessions for six weeks total. Our research yielded positive results in the areas of increasing balance, reducing fall risk, and reducing risk of depression.  The results were presented at the 2019 American Occupational Therapy Association Annual Conference.<br><br>
+    <p>Silver Slippers aims to connect older adults with dance instructors for private, in-home dance lessons. Participating in dance has been linked with numerous health benefits - most notably improvements in balance and reduction in fall risk. Sessions are customizable in terms of preferred dance style, frequency, and duration, though at least one 45-min session per week is highly recommended for optimal outcomes. 
+    <br><br> 
+    Silver Slippers LLC started as a research project.  An occupational therapist / dance enthusiast collaborated with a classically-trained dancer to develop a multi-genre dance program suited for seniors consisting of two 45-min weekly sessions for six weeks total. Our research yielded positive results in the areas of increasing balance, reducing fall risk, and reducing risk of depression.  The results were presented at the 2019 American Occupational Therapy Association Annual Conference.
   </div>
 
+  <div class="hero-graphic">
+    <img id="hero-graphic" src="/Assets/images/Couple_Dancing_V1.png">
+    </div>
+
   </div>
+
+</div>
 
   <!-- ========================================== -->
 
@@ -81,25 +87,25 @@
 
     <div class="pricing-container columns">
 
-        <div class="3-sessions column box">
+        <div class="three-sessions column box" id="three-sessions">
           <h2>Three Sessions</h2><br>
           <h3>$300</h3><br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat porta mi sit amet ultrices. Mauris vitae bibendum metus. Sed mattis tincidunt dui, sed imperdiet sem blandit et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec blandit id est id semper. Curabitur velit est, tincidunt id tincidunt sed, pellentesque sit amet erat.</p><br>
-          <button class="button">Buy Now</button>
+          <button class="button is-white btn">Buy Now</button>
         </div>
         
-        <div class="6-sessions column box">
+        <div class="six-sessions column box" id="six-sessions">
           <h2>Six Sessions</h2><br>
           <h3>$500</h3><br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat porta mi sit amet ultrices. Mauris vitae bibendum metus. Sed mattis tincidunt dui, sed imperdiet sem blandit et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec blandit id est id semper. Curabitur velit est, tincidunt id tincidunt sed, pellentesque sit amet erat.</p><br>
-          <button class="button">Buy Now</button>
+          <button class="button is-white btn">Buy Now</button>
         </div>
 
-        <div class="12-sessions column box">
+        <div class="twelve-sessions column box" id="twelve-sessions">
           <h2>Twelve Sessions</h2><br>
           <h3>$800</h3><br>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat porta mi sit amet ultrices. Mauris vitae bibendum metus. Sed mattis tincidunt dui, sed imperdiet sem blandit et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec blandit id est id semper. Curabitur velit est, tincidunt id tincidunt sed, pellentesque sit amet erat.</p><br>
-          <button class="button">Buy Now</button>
+          <button class="button is-white btn">Buy Now</button>
         </div>
 
       
@@ -146,16 +152,16 @@
 <div class="field">
   <h3 class="label">Message</h3>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <textarea class="textarea" placeholder="Write message here."></textarea>
   </div>
 </div>
 
 <div class="field is-grouped">
   <div class="control">
-    <button class="button">Submit</button>
+    <button class="button is-white btn">Submit</button>
   </div>
   <div class="control">
-    <button class="button">Cancel</button>
+    <button class="button is-white btn">Cancel</button>
   </div>
 </div>
 
@@ -171,13 +177,13 @@
   <div class="content has-text-centered">
    <div class="footer-contact">
     <!-- For More Inforamtion:<br> -->
-    Alissa Bonjuklian MS OTR/L, LSVT<br>
+    <strong>Alissa Bonjuklian MS OTR/L, LSVT</strong><br>
     alissa@dancesilverslippers.com<br>
     551-427-0944<br>
    </div>
   <br>
   <div class="footer-copyright">
-  Copyright © 2020 Silver Slippers LLC. All rights reserved.
+  <strong>Copyright © 2020 Silver Slippers LLC. All rights reserved.</strong>
   </div>
 </div>
 </footer>
