@@ -125,33 +125,33 @@
 
 <div class="form-wrapper">
 
-<div class="form-container box">
+<form class="form-container box" name="contact" method="POST" data-netlify="true">
 
   <div class="field">
-    <h3 class="label">Name</h3>
+    <label class="label"><h3>Name</h3></label>
     <div class="control">
-      <input class="input" type="text" placeholder="e.g Alex Smith">
+      <input class="input" type="text" name="name" placeholder="e.g Alex Smith">
     </div>
   </div>
   
   <div class="field">
-    <h3 class="label">Email</h3>
+    <label class="label"><h3>Email</h3></label>
     <div class="control">
-      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+      <input class="input" type="email" name="email" placeholder="e.g. alexsmith@gmail.com">
     </div>
   </div>
 
   <div class="field">
-    <h3 class="label">Phone Number</h3>
+    <label class="label"><h3>Phone Number</h3></label>
     <div class="control">
-      <input class="input" type="email" placeholder="555-555-5555">
+      <input class="input" type="text" name="phone-number" placeholder="555-555-5555">
     </div>
   </div>
 
 <div class="field">
-  <h3 class="label">Message</h3>
+  <label class="label"><h3>Message</h3></label>
   <div class="control">
-    <textarea class="textarea" placeholder="Write message here."></textarea>
+    <textarea class="textarea" placeholder="Write message here." name="message"></textarea>
   </div>
 </div>
 
@@ -164,7 +164,7 @@
   </div>
 </div>
 
-</div> <!-- Form Container Close -->
+</form> <!-- Form Container Close -->
 
 </div> <!-- Form Wrapper Close -->
 
