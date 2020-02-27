@@ -68,24 +68,13 @@ p {
 
 .hero-text {
     padding-top: 100px;
-    width: 800px;
-    min-width: 800px;
+    width: 550px;
     height: 600px;
-    min-width: 600px;
 }
 
 .hero-graphic {
-    height: 700px;
+    height: 600px;
 }
-
-.hero-text {
-    width: 800px;
-}
-
-.hero-text {
-    width: 800px;
-}
-
 
 .logo {
     height: 150px;
@@ -107,13 +96,22 @@ margin-top: 100px;
     margin: 0px 50px 50px 50px;
 }
 
-.pricing-container > div {
+.package{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    background-color: lightblue;
+    height: 420px;
+    /* width: 500px; */
+}
+
+/* .pricing-container > div {
     border-radius: 5px;
     margin: 20px;
     padding: 30px;
     background-color: lightblue;
     width: 200px;
-}
+} */
 
 .column{
     min-width: 400px;
