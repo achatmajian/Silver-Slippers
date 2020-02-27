@@ -1,3 +1,5 @@
+/* Global */
+
 body{
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,6 +30,7 @@ p {
 
 
 /* Navigation */
+
 .navbar{
     width: 100%;
     margin: 0 auto;
@@ -116,6 +119,10 @@ margin-top: 100px;
     min-width: 400px;
 }
 
+.session-breakdown{
+    font-weight: bold;
+}
+
 
 /* Form */
 
@@ -158,3 +165,5 @@ margin-top: 100px;
     padding: 10px 25px 10px 25px;
 
 }
+
+/* Responsive Styles */
