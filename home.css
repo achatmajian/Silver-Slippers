@@ -421,12 +421,12 @@ margin-top: 100px;
     }
 
     #hero-graphic {
-        /* image-rendering: auto;
+        image-rendering: auto;
         image-rendering: crisp-edges;
-        background-size: contain; */
+        background-size: contain;
         width: auto;
-        padding: 30px;
-        padding-top: 300px;
+        padding: 50px;
+        padding-top: 50px;
     }
     
     .pricing-wrapper{
