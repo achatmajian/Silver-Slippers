@@ -394,8 +394,6 @@ margin-top: 100px;
     }
 }
 
-
-
 @media screen and (min-width: 350px) and (max-width: 499px){
 
     .navbar{
@@ -456,4 +454,3 @@ margin-top: 100px;
         width: 800px;
     }
 }
-
