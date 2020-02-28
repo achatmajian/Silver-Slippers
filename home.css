@@ -186,6 +186,7 @@ margin-top: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .hero-container {
         display: flex;
         flex-wrap: wrap;
@@ -364,7 +365,7 @@ margin-top: 100px;
 
     #hero-graphic {
         /* image-rendering: auto;
-        image-rendering: crisp-edges;
+        image-rendering: crisp-edges;`
         background-size: contain; */
         height: 600px;
         width: 500px;
@@ -393,68 +394,7 @@ margin-top: 100px;
     }
 }
 
-@media screen and (max-width: 400px){
-
-    .navbar{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .hero-container {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 auto;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .hero-text {
-        text-align: left;
-        padding-top: 50px;
-        width: 550px;
-        height: 600px;
-        padding-bottom: 200px;
-    }
-
-    #hero-graphic {
-        /* image-rendering: auto;
-        image-rendering: crisp-edges;
-        background-size: contain; */
-        width: auto;
-        padding: 30px;
-        padding-top: 300px;
-    }
-    
-    .pricing-wrapper{
-        width: 200px;
-        margin: 0 auto;
-    }
-
-    .pricing-container {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        width: 200px;
-    }
-
-    .package-session{
-        border-radius: 5px;
-        margin: 10px;
-        padding: 30px;
-        background-color: lightblue;
-        height: 420px;
-        width: 200px;
-    }
-
-    .form-container {
-        margin: auto;
-        margin-top: 30px;
-        width: 800px;
-    }
-}
-
-@media screen and (max-width: 350px){
+@media screen and (min-width: 350px) and (max-width: 499px){
 
     .navbar{
         padding-left: 20px;
