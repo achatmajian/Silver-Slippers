@@ -14,4 +14,4 @@
 [dancesilverslippers.com](https://dancesilverslippers.com)
 
 ## Screenshot
-![image](http://url/to/img.png)
+![Image of HomeScreen](https://i.ibb.co/sg2hYHJ/silver-slippers-screenshot.png)
