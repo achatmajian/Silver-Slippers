@@ -9,3 +9,9 @@
 * HTML5
 * Bulma CSS Framework
 * Hosted on Netlify
+
+## Link to Website
+[dancesilverslippers.com](https://dancesilverslippers.com)
+
+## Screenshot
+![alt text](http://url/to/img.png)
